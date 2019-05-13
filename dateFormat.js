@@ -51,6 +51,7 @@ function formatDate(userInputDate, format) {
     let year = date.getFullYear();
     let month = date.getMonth() + 1;
     let day = date.getDate();
+    format = format.trim();
 
     switch (format) {
         case 'MM/DD/YYYY':
